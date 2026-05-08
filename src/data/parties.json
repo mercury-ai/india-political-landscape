@@ -1,0 +1,356 @@
+[
+	{
+		"id": "BJP",
+		"name": "Bharatiya Janata Party",
+		"abbreviation": "BJP",
+		"displayColor": "#FF6B00"
+	},
+	{
+		"id": "INC",
+		"name": "Indian National Congress",
+		"abbreviation": "INC",
+		"displayColor": "#1565C0"
+	},
+	{
+		"id": "AAP",
+		"name": "Aam Aadmi Party",
+		"abbreviation": "AAP",
+		"displayColor": "#00ACC1"
+	},
+	{
+		"id": "DMK",
+		"name": "Dravida Munnetra Kazhagam",
+		"abbreviation": "DMK",
+		"displayColor": "#C62828"
+	},
+	{
+		"id": "ADMK",
+		"name": "All India Anna Dravida Munnetra Kazhagam",
+		"abbreviation": "ADMK",
+		"displayColor": "#2E7D32"
+	},
+	{
+		"id": "CPIM",
+		"name": "Communist Party of India (Marxist)",
+		"abbreviation": "CPIM",
+		"displayColor": "#7F0000"
+	},
+	{
+		"id": "CPI",
+		"name": "Communist Party of India",
+		"abbreviation": "CPI",
+		"displayColor": "#B71C1C"
+	},
+	{
+		"id": "CPML",
+		"name": "Communist Party of India (Marxist-Leninist) Liberation",
+		"abbreviation": "CPML",
+		"displayColor": "#D50000"
+	},
+	{
+		"id": "AITC",
+		"name": "All India Trinamool Congress",
+		"abbreviation": "TMC",
+		"displayColor": "#00695C"
+	},
+	{
+		"id": "JDU",
+		"name": "Janata Dal (United)",
+		"abbreviation": "JDU",
+		"displayColor": "#4CAF50"
+	},
+	{
+		"id": "RJD",
+		"name": "Rashtriya Janata Dal",
+		"abbreviation": "RJD",
+		"displayColor": "#1B5E20"
+	},
+	{
+		"id": "SP",
+		"name": "Samajwadi Party",
+		"abbreviation": "SP",
+		"displayColor": "#E53935"
+	},
+	{
+		"id": "BSP",
+		"name": "Bahujan Samaj Party",
+		"abbreviation": "BSP",
+		"displayColor": "#1976D2"
+	},
+	{
+		"id": "RLD",
+		"name": "Rashtriya Lok Dal",
+		"abbreviation": "RLD",
+		"displayColor": "#F9A825"
+	},
+	{
+		"id": "TDP",
+		"name": "Telugu Desam Party",
+		"abbreviation": "TDP",
+		"displayColor": "#FFD600"
+	},
+	{
+		"id": "YSRCP",
+		"name": "YSR Congress Party",
+		"abbreviation": "YRSCP",
+		"displayColor": "#0097A7"
+	},
+	{
+		"id": "BRS",
+		"name": "Bharat Rashtra Samithi",
+		"abbreviation": "BRS",
+		"displayColor": "#AD1457"
+	},
+	{
+		"id": "AIMIM",
+		"name": "All India Majlis-e-Ittehadul Muslimeen",
+		"abbreviation": "AIMIM",
+		"displayColor": "#4527A0"
+	},
+	{
+		"id": "JMM",
+		"name": "Jharkhand Mukti Morcha",
+		"abbreviation": "JMM",
+		"displayColor": "#6D4C41"
+	},
+	{
+		"id": "BJD",
+		"name": "Biju Janata Dal",
+		"abbreviation": "BJD",
+		"displayColor": "#00796B"
+	},
+	{
+		"id": "NCP",
+		"name": "Nationalist Congress Party (Ajit Pawar)",
+		"abbreviation": "NCP",
+		"displayColor": "#E65100"
+	},
+	{
+		"id": "NCPSP",
+		"name": "Nationalist Congress Party (Sharad Pawar)",
+		"abbreviation": "NCP-S",
+		"displayColor": "#BF360C"
+	},
+	{
+		"id": "SS",
+		"name": "Shiv Sena (Eknath Shinde)",
+		"abbreviation": "SS",
+		"displayColor": "#FF8F00"
+	},
+	{
+		"id": "SSUBT",
+		"name": "Shiv Sena (Uddhav Balasaheb Thackeray)",
+		"abbreviation": "SSUBT",
+		"displayColor": "#F57F17"
+	},
+	{
+		"id": "NC",
+		"name": "Jammu and Kashmir National Conference",
+		"abbreviation": "NC",
+		"displayColor": "#3F51B5"
+	},
+	{
+		"id": "PDP",
+		"name": "Peoples Democratic Party",
+		"abbreviation": "PDP",
+		"displayColor": "#7B1FA2"
+	},
+	{
+		"id": "JKAP",
+		"name": "Jammu and Kashmir Apni Party",
+		"abbreviation": "JKAP",
+		"displayColor": "#9C27B0"
+	},
+	{
+		"id": "JKPC",
+		"name": "Jammu and Kashmir People's Conference",
+		"abbreviation": "JKPC",
+		"displayColor": "#673AB7"
+	},
+	{
+		"id": "SKM",
+		"name": "Sikkim Krantikari Morcha",
+		"abbreviation": "SKM",
+		"displayColor": "#607D8B"
+	},
+	{
+		"id": "SDF",
+		"name": "Sikkim Democratic Front",
+		"abbreviation": "SDF",
+		"displayColor": "#546E7A"
+	},
+	{
+		"id": "ZPM",
+		"name": "Zoram People's Movement",
+		"abbreviation": "ZPM",
+		"displayColor": "#26C6DA"
+	},
+	{
+		"id": "MNF",
+		"name": "Mizo National Front",
+		"abbreviation": "MNF",
+		"displayColor": "#00897B"
+	},
+	{
+		"id": "NPP",
+		"name": "National People's Party",
+		"abbreviation": "NPP",
+		"displayColor": "#8BC34A"
+	},
+	{
+		"id": "UDP",
+		"name": "United Democratic Party",
+		"abbreviation": "UDP",
+		"displayColor": "#AB47BC"
+	},
+	{
+		"id": "NDPP",
+		"name": "Nationalist Democratic Progressive Party",
+		"abbreviation": "NDPP",
+		"displayColor": "#66BB6A"
+	},
+	{
+		"id": "NPF",
+		"name": "Naga People's Front",
+		"abbreviation": "NPF",
+		"displayColor": "#78909C"
+	},
+	{
+		"id": "NPPF",
+		"name": "Nagaland People's Front",
+		"abbreviation": "NPPF",
+		"displayColor": "#90A4AE"
+	},
+	{
+		"id": "AGP",
+		"name": "Asom Gana Parishad",
+		"abbreviation": "AGP",
+		"displayColor": "#FDD835"
+	},
+	{
+		"id": "AIUDF",
+		"name": "All India United Democratic Front",
+		"abbreviation": "AIUDF",
+		"displayColor": "#EF5350"
+	},
+	{
+		"id": "BPF",
+		"name": "Bodoland People's Front",
+		"abbreviation": "BPF",
+		"displayColor": "#A5D6A7"
+	},
+	{
+		"id": "UPPL",
+		"name": "United People's Party Liberal",
+		"abbreviation": "UPPL",
+		"displayColor": "#80CBC4"
+	},
+	{
+		"id": "AGP2",
+		"name": "All India United Democratic Front alliance partner",
+		"abbreviation": "WPRP",
+		"displayColor": "#CE93D8"
+	},
+	{
+		"id": "LJP",
+		"name": "Lok Jan Shakti Party (Ram Vilas)",
+		"abbreviation": "LJP",
+		"displayColor": "#29B6F6"
+	},
+	{
+		"id": "HAM",
+		"name": "Hindustani Awam Morcha (Secular)",
+		"abbreviation": "HAM",
+		"displayColor": "#EC407A"
+	},
+	{
+		"id": "VIP",
+		"name": "Vikassheel Insaan Party",
+		"abbreviation": "VIP",
+		"displayColor": "#FF80AB"
+	},
+	{
+		"id": "AINRC",
+		"name": "All India N.R. Congress",
+		"abbreviation": "AINRC",
+		"displayColor": "#9CCC65"
+	},
+	{
+		"id": "IUML",
+		"name": "Indian Union Muslim League",
+		"abbreviation": "IUML",
+		"displayColor": "#00BFA5"
+	},
+	{
+		"id": "KCM",
+		"name": "Kerala Congress (M)",
+		"abbreviation": "KC(M)",
+		"displayColor": "#FFCA28"
+	},
+	{
+		"id": "JDS",
+		"name": "Janata Dal (Secular)",
+		"abbreviation": "JD(S)",
+		"displayColor": "#42A5F5"
+	},
+	{
+		"id": "BAP",
+		"name": "Bharatiya Adivasi Party",
+		"abbreviation": "BAP",
+		"displayColor": "#A5D6A7"
+	},
+	{
+		"id": "JSP",
+		"name": "Jana Sena Party",
+		"abbreviation": "JSP",
+		"displayColor": "#F4511E"
+	},
+	{
+		"id": "SAD",
+		"name": "Shiromani Akali Dal",
+		"abbreviation": "SAD",
+		"displayColor": "#1A237E"
+	},
+	{
+		"id": "INLD",
+		"name": "Indian National Lok Dal",
+		"abbreviation": "INLD",
+		"displayColor": "#558B2F"
+	},
+	{
+		"id": "TIPRA",
+		"name": "TiPRA Motha",
+		"abbreviation": "TIPRA",
+		"displayColor": "#5C4033"
+	},
+	{
+		"id": "ISF",
+		"name": "Indian Secular Front",
+		"abbreviation": "ISF",
+		"displayColor": "#006064"
+	},
+	{
+		"id": "VCK",
+		"name": "Viduthalai Chiruthaigal Katchi",
+		"abbreviation": "VCK",
+		"displayColor": "#37474F"
+	},
+	{
+		"id": "MGP",
+		"name": "Maharashtrawadi Gomantak Party",
+		"abbreviation": "MGP",
+		"displayColor": "#827717"
+	},
+	{
+		"id": "IND",
+		"name": "Independent",
+		"abbreviation": "Ind",
+		"displayColor": "#9E9E9E"
+	},
+	{
+		"id": "OTH",
+		"name": "Others",
+		"abbreviation": "Oth",
+		"displayColor": "#6B7280"
+	}
+]

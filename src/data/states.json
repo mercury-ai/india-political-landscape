@@ -1,0 +1,182 @@
+[
+	{
+		"id": "AP",
+		"name": "Andhra Pradesh",
+		"isUT": false
+	},
+	{
+		"id": "AR",
+		"name": "Arunachal Pradesh",
+		"isUT": false
+	},
+	{
+		"id": "AS",
+		"name": "Assam",
+		"isUT": false
+	},
+	{
+		"id": "BR",
+		"name": "Bihar",
+		"isUT": false
+	},
+	{
+		"id": "CG",
+		"name": "Chhattisgarh",
+		"isUT": false
+	},
+	{
+		"id": "GA",
+		"name": "Goa",
+		"isUT": false
+	},
+	{
+		"id": "GJ",
+		"name": "Gujarat",
+		"isUT": false
+	},
+	{
+		"id": "HR",
+		"name": "Haryana",
+		"isUT": false
+	},
+	{
+		"id": "HP",
+		"name": "Himachal Pradesh",
+		"isUT": false
+	},
+	{
+		"id": "JH",
+		"name": "Jharkhand",
+		"isUT": false
+	},
+	{
+		"id": "KA",
+		"name": "Karnataka",
+		"isUT": false
+	},
+	{
+		"id": "KL",
+		"name": "Kerala",
+		"isUT": false
+	},
+	{
+		"id": "MP",
+		"name": "Madhya Pradesh",
+		"isUT": false
+	},
+	{
+		"id": "MH",
+		"name": "Maharashtra",
+		"isUT": false
+	},
+	{
+		"id": "MN",
+		"name": "Manipur",
+		"isUT": false
+	},
+	{
+		"id": "ML",
+		"name": "Meghalaya",
+		"isUT": false
+	},
+	{
+		"id": "MZ",
+		"name": "Mizoram",
+		"isUT": false
+	},
+	{
+		"id": "NL",
+		"name": "Nagaland",
+		"isUT": false
+	},
+	{
+		"id": "OD",
+		"name": "Odisha",
+		"isUT": false
+	},
+	{
+		"id": "PB",
+		"name": "Punjab",
+		"isUT": false
+	},
+	{
+		"id": "RJ",
+		"name": "Rajasthan",
+		"isUT": false
+	},
+	{
+		"id": "SK",
+		"name": "Sikkim",
+		"isUT": false
+	},
+	{
+		"id": "TN",
+		"name": "Tamil Nadu",
+		"isUT": false
+	},
+	{
+		"id": "TS",
+		"name": "Telangana",
+		"isUT": false
+	},
+	{
+		"id": "TR",
+		"name": "Tripura",
+		"isUT": false
+	},
+	{
+		"id": "UK",
+		"name": "Uttarakhand",
+		"isUT": false
+	},
+	{
+		"id": "UP",
+		"name": "Uttar Pradesh",
+		"isUT": false
+	},
+	{
+		"id": "WB",
+		"name": "West Bengal",
+		"isUT": false
+	},
+	{
+		"id": "AN",
+		"name": "Andaman and Nicobar Islands",
+		"isUT": true
+	},
+	{
+		"id": "CH",
+		"name": "Chandigarh",
+		"isUT": true
+	},
+	{
+		"id": "DN",
+		"name": "Dadra and Nagar Haveli and Daman and Diu",
+		"isUT": true
+	},
+	{
+		"id": "DL",
+		"name": "Delhi",
+		"isUT": true
+	},
+	{
+		"id": "JK",
+		"name": "Jammu and Kashmir",
+		"isUT": true
+	},
+	{
+		"id": "LA",
+		"name": "Ladakh",
+		"isUT": true
+	},
+	{
+		"id": "LD",
+		"name": "Lakshadweep",
+		"isUT": true
+	},
+	{
+		"id": "PY",
+		"name": "Puducherry",
+		"isUT": true
+	}
+]
