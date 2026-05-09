@@ -71,7 +71,7 @@ export default function WorldMap({ onStateHover, onStateClick, hoveredStateId: _
   const activeRef = useRef<ActiveHover | null>(null)
 
   useEffect(() => {
-    fetch('/india-states.geojson')
+    fetch(`${import.meta.env.BASE_URL}india-states.geojson`)
       .then(r => r.json())
       .then(setGeoData)
   }, [])
