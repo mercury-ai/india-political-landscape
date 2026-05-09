@@ -9,7 +9,7 @@ export const ALLIANCE_COLORS: Record<AllianceTag, string> = {
 
 export const ALLIANCE_LABELS: Record<AllianceTag, string> = {
   NDA: 'NDA',
-  INDIA: 'INDIA Alliance',
+  INDIA: 'INDI Alliance',
   OTHER: 'Other / Regional',
 }
 
