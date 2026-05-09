@@ -1,19 +1,23 @@
-## ADDED Requirements
+# State Info Card
+
+The state-info-card capability defines the floating info panel (desktop) and bottom drawer (mobile) that surface political details for the hovered/tapped state — name, alliance, ruling party, Chief Minister, and election vote share.
+
+## Requirements
 
 ### Requirement: Desktop floating info card on hover
-On devices with a fine pointer (mouse), the system SHALL display a floating info card near the cursor when hovering over a state. The card SHALL use `@floating-ui/react` for positioning and SHALL automatically flip or shift to avoid viewport edges.
+On devices with a fine pointer (mouse), the system SHALL display a floating info card when hovering over a state. The card SHALL be positioned using fixed CSS coordinates derived from the Leaflet `mouseover` event's `containerPoint`, offset 12px to the right. The card SHALL apply manual flip logic to avoid viewport overflow.
 
 #### Scenario: Card appears on state hover
-- **WHEN** a mouse pointer enters a state path on desktop
+- **WHEN** a mouse pointer enters a state polygon on desktop
 - **THEN** a floating info card appears near the cursor within 150ms containing the state's name, ruling party/alliance, CM name, and in-power-since year
 
 #### Scenario: Card repositions at viewport edge
 - **WHEN** the cursor is near the right or bottom viewport edge
-- **THEN** the floating card flips to the opposite side or shifts inward to remain fully visible
+- **THEN** the floating card repositions to the left of the cursor or shifts upward to remain fully visible
 
-#### Scenario: Card disappears on pointer leave
-- **WHEN** the pointer leaves the state path and is not over the card
-- **THEN** the card fades out with a `0.15s` opacity transition
+#### Scenario: Card persists during mouse transit
+- **WHEN** the pointer leaves the state polygon
+- **THEN** the card remains visible for at least 200ms (see hover-tooltip spec)
 
 ---
 

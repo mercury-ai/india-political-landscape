@@ -47,11 +47,11 @@
 
 ## 8. QA
 
-- [ ] 8.1 Run `npm run dev` and verify all 36 states/UTs render with correct alliance colors
-- [ ] 8.2 Verify Andaman & Nicobar Islands and Lakshadweep appear at correct geographic positions
-- [ ] 8.3 Verify scroll-wheel zoom, pinch-to-zoom (trackpad), and click-drag pan all work
-- [ ] 8.4 Hover over a state → move mouse to info card → click the Wikipedia CM link — verify the card does not disappear
-- [ ] 8.5 Verify West Bengal shows INDIA alliance color (blue), not gray
-- [ ] 8.6 Test on a simulated touch device (Chrome DevTools) — verify state tap opens the drawer
-- [ ] 8.7 Resize the browser window to various sizes — verify map fills the layout at all sizes
+- [x] 8.1 Run `npm run dev` and verify all 36 states/UTs render with correct alliance colors
+- [x] 8.2 Verify Andaman & Nicobar Islands and Lakshadweep appear at correct geographic positions
+- [x] 8.3 Verify scroll-wheel zoom, pinch-to-zoom (trackpad), and click-drag pan all work
+- [x] 8.4 Hover over a state → move mouse to info card → click the Wikipedia CM link — verify the card does not disappear
+- [x] 8.5 Verify West Bengal shows INDIA alliance color (blue), not gray
+- [x] 8.6 Test on a simulated touch device (Chrome DevTools) — verify state tap opens the drawer
+- [x] 8.7 Resize the browser window to various sizes — verify map fills the layout at all sizes
 - [x] 8.8 Run `npm run build` and confirm no TypeScript errors
