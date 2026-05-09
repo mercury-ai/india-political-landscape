@@ -70,7 +70,7 @@ export default function StateDrawer({ viewModel, open, onClose, loading }: Props
               </span>
             </div>
 
-            <div ref={contentRef} className="overflow-y-auto px-5 py-4 space-y-3 flex-1">
+            <div ref={contentRef} className="overflow-y-auto px-5 py-4 space-y-3 flex-1" style={{ paddingBottom: 'max(1rem, env(safe-area-inset-bottom, 0px))' }}>
               <div>
                 <div className="text-xs text-neutral-400">Ruling Party</div>
                 <div className="text-sm text-white font-medium mt-0.5">

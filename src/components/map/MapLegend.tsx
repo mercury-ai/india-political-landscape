@@ -3,7 +3,8 @@ import type { AllianceTag } from '@/lib/types'
 
 const ALLIANCES: AllianceTag[] = ['NDA', 'INDIA', 'OTHER']
 
-export default function MapLegend() {
+export default function MapLegend({ hidden }: { hidden?: boolean }) {
+  if (hidden) return null
   return (
     <div className="absolute bottom-4 left-4 flex flex-col gap-1.5 bg-neutral-900/80 backdrop-blur-sm rounded-lg px-3 py-2.5">
       {ALLIANCES.map(tag => (

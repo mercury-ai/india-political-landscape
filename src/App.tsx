@@ -73,7 +73,7 @@ export default function App() {
   }, [])
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#0f0f0f]">
+    <div className="flex flex-col h-dvh bg-[#0f0f0f]">
       <Header />
       <main className="flex-1 flex flex-col pt-[54px]" style={{ minHeight: 0 }}>
         <div className="flex-1 relative" style={{ minHeight: 0 }}>
@@ -84,7 +84,7 @@ export default function App() {
               onStateClick={handleStateClick}
             />
           </Suspense>
-          <MapLegend />
+          <MapLegend hidden={drawerOpen} />
           {!isTouch && (
             <StateInfoCard
               viewModel={cardViewModel}

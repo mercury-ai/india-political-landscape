@@ -23,6 +23,13 @@ const CARTO_ATTRIBUTION =
 // India fits comfortably within a padded area at any reasonable zoom level.
 const POLYGON_RENDERER = L.svg({ padding: 5 })
 
+function initialZoom(): number {
+  const w = window.innerWidth
+  if (w < 640) return 4
+  if (w < 1024) return 4.5
+  return 5
+}
+
 const DEFAULT_STYLE = (stateId: string): L.PathOptions => ({
   fillColor: stateColor(stateId),
   fillOpacity: 0.7,
@@ -137,7 +144,8 @@ export default function WorldMap({ onStateHover, onStateClick, hoveredStateId: _
     <div style={{ position: 'absolute', inset: 0 }}>
       <MapContainer
         center={[22, 78]}
-        zoom={5}
+        zoom={initialZoom()}
+        zoomSnap={0.5}
         style={{ width: '100%', height: '100%', background: '#0f0f0f' }}
         zoomControl
         renderer={POLYGON_RENDERER}
