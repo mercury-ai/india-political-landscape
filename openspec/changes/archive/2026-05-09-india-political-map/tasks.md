@@ -16,7 +16,7 @@ Phase 1 is complete when every state/UT has a verified government entry, every e
 - [x] 2.4 Install `tsx` as a dev dependency for running TypeScript scripts (`npm install -D tsx`)
 - [x] 2.5 Write `scripts/extract-svg-paths.ts` — reads source SVG + mapping file, outputs `src/map/statePaths.ts` as a typed `Record<string, string>` named `STATE_PATHS`
 - [x] 2.6 Run the script and verify `STATE_PATHS` has exactly 36 entries with valid SVG path strings
-- [ ] 2.7 Commit `scripts/india-states-source.svg`, `scripts/wikimedia-id-map.json`, and `src/map/statePaths.ts`
+- [x] 2.7 Commit `scripts/india-states-source.svg`, `scripts/wikimedia-id-map.json`, and `src/map/statePaths.ts`
 
 ## 3. Government Data — All 36 States & UTs
 

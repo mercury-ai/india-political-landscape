@@ -17,3 +17,12 @@ body {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
+
+/* Leaflet tiles use <img> — Tailwind preflight sets img{display:block} which breaks tile layout */
+.leaflet-tile {
+  display: inline !important;
+}
+/* Prevent Tailwind's image reset from affecting Leaflet control icons */
+.leaflet-container img {
+  display: inline;
+}
