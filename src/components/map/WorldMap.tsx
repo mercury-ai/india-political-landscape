@@ -69,6 +69,14 @@ function MapMouseLeaveHandler({ onLeave }: { onLeave: () => void }) {
 export default function WorldMap({ onStateHover, onStateClick, hoveredStateId: _ }: Props) {
   const [geoData, setGeoData] = useState<GeoJsonObject | null>(null)
   const activeRef = useRef<ActiveHover | null>(null)
+  const pendingLeaveRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  const cancelPendingLeave = () => {
+    if (pendingLeaveRef.current !== null) {
+      clearTimeout(pendingLeaveRef.current)
+      pendingLeaveRef.current = null
+    }
+  }
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}india-states.geojson`)
@@ -89,6 +97,7 @@ export default function WorldMap({ onStateHover, onStateClick, hoveredStateId: _
     const path = layer as L.Path
 
     layer.on('mouseover', (e: L.LeafletMouseEvent) => {
+      cancelPendingLeave()
       // If a different state is currently active, reset it first
       if (activeRef.current && activeRef.current.layer !== path) {
         activeRef.current.layer.setStyle(DEFAULT_STYLE(activeRef.current.stateId))
@@ -104,7 +113,12 @@ export default function WorldMap({ onStateHover, onStateClick, hoveredStateId: _
       if (activeRef.current?.layer === path) {
         path.setStyle(DEFAULT_STYLE(stateId))
         activeRef.current = null
-        onStateHover(null)
+        // Debounce the null signal so moving between small island polygons
+        // (Andaman & Nicobar, Lakshadweep) doesn't flash the card away
+        pendingLeaveRef.current = setTimeout(() => {
+          pendingLeaveRef.current = null
+          onStateHover(null)
+        }, 150)
       }
     })
 
@@ -114,6 +128,7 @@ export default function WorldMap({ onStateHover, onStateClick, hoveredStateId: _
   }
 
   const handleMapLeave = () => {
+    cancelPendingLeave()
     clearActive()
     onStateHover(null)
   }
